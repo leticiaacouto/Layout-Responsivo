@@ -10,6 +10,19 @@ h2{
     text-align: center;
 }
 
+/* .titulo{
+    text-align: center;
+    width: 100%;
+    position: relative;
+} */
+
+.corpo{
+    position: relative;
+    margin-left: 106px;
+}
+
+
+
 .col{
     float: left;
     width: 30%;
