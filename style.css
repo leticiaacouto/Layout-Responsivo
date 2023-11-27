@@ -1,23 +1,47 @@
 @charset "utf-8";
 
-body{
-    font-family: sans-serif;
-    background: #222121;
-    color: #fff;
+@font-face{
+    font-family: fonte1;
+    src: url(./fontes/The\ Amazing\ Spider-Man.ttf);
 }
+
+body{
+    font-family: fonte1;
+    background: #ecc087;
+    
+}
+
+header{
+    color:#0b2618;
+}
+
+
+footer{
+    background-color:#ecc087;
+    color: rgb(3, 36, 15);
+    text-align: center;
+    padding-bottom: 0.5px;
+    justify-content: center;
+    padding-top: 2px;
+    width: 100%;
+    
+    }
 
 h2{
     text-align: center;
+    /* margin-right: 10px; */
+    
 }
 
-/* .titulo{
-    text-align: center;
-    width: 100%;
+
+.colunas{
     position: relative;
-} */
+    height: 700px;
+    margin-left: 25px;
+}
 
 .corpo{
-    position: relative;
+    /* position: relative; */
     margin-left: 106px;
 }
 
@@ -28,25 +52,26 @@ h2{
     width: 30%;
     padding: 8px;
     box-sizing: border-box;
+    
 }
 
 .price-box{
     background: #fff;
     color: #555;
     list-style-type: none;
-    border: 1px solid #555;
+    border: 1px solid rgb(0, 58, 41);
     margin: 0;
     padding: 0;
 }
 
 .price-box .header{
-    background: #111;
+    background: #0b2618;
     color: #fff;
     font-size: 25px;
 }
 
 .price-box .header.header-green{
-    background: #217a67e0;
+    background: #3b7457;
 }
 
 .price-box li{
@@ -57,7 +82,7 @@ h2{
 }
 
 .btn{
-    background-color: #217a67;
+    background-color: #185434e0;
     border: none;
     color: #fff;
     text-align: center;
